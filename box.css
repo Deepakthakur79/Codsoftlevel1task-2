@@ -1,0 +1,16 @@
+.box{
+    height: 60px;
+    position: absolute;
+    width: 400px;
+    /* background-color: rgba(0, 0, 0, 0.662); */
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    top: 0;
+    margin-top: 100px;
+    animation: height 0.6s;
+}
+
+.box:hover{
+ height: 300px;
+ background-color: rgba(0, 0, 0, 0.662);
+}
